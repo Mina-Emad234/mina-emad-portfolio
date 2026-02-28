@@ -8,46 +8,37 @@ export const profile = {
   whatsapp: "https://wa.me/201273530486",
   github: "https://github.com/Mina-Emad234",
   linkedin: "https://www.linkedin.com/in/mina-emad-2514a2243",
-  summary: "Backend Developer with 4 years of experience in building scalable and maintainable web applications. Strong background in PHP and Laravel, with hands-on experience in API development, database design, and system optimization. Skilled in working with RESTful APIs, authentication systems, and third-party integrations such as payment gateways and external services. Experienced in applying clean architecture principles, improving performance through caching, queues, and efficient queries, and collaborating closely with frontend teams and product stakeholders.",
+  summary: "Results-oriented Backend Developer with 4 years of experience, primarily within dynamic startup environments across Jordan, UAE, Iraq, and Egypt. Proven track record in building scalable web applications from the ground up using PHP and Laravel. Expert in designing RESTful APIs, optimizing database performance, and integrating complex third-party services like payment gateways. Highly adaptable to the fast-paced nature of startups, with a strong focus on applying Clean Architecture to deliver maintainable, high-performance backend solutions that drive business growth.",
   education: {
     degree: "Bachelor of Business Information System",
     institution: "Faculty of Commerce, Tanta University",
     date: "June 2020",
-    description: "Specialized in web programming and actively participated in the Ministry of Communications' initiative to qualify youth for self-employment in web development."
+    description: "Specialized in Web Programming and participated in the Ministry of Communications' youth qualification initiative."
   },
   skills: {
-    backend: ["PHP", "Laravel", "CodeIgniter", "RESTful APIs", "GraphQL", "Laravel Testing (PHPUnit)", "Design Patterns (Repository)", "Filament", "ExpressJS"],
-    database: ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
+    backend: ["PHP", "Laravel", "CodeIgniter", "GraphQL", "Filament", "ExpressJS", "RESTful APIs", "Microservices (Rabbitmq message queue)", "Unit Testing", "Caching", "Multitenancy", "Web scraping", "External systems integration"],
+    database: ["MySQL", "MongoDB", "Redis"],
     devops: ["Docker", "CI/CD", "Git", "GitHub", "Web Hosting", "AWS"],
     frontend: ["HTML", "CSS", "JavaScript", "jQuery", "Vue.js", "Livewire", "Tailwind CSS", "Bootstrap"],
     tools: ["Pusher", "Firebase", "Payment Gateway Integration", "External APIs", "Zoom Integration", "Wasabi"]
   },
   softSkills: [
     "Clear and concise communication",
-    "Collaborative and team-oriented player",
-    "Creative thinker and problem solver",
-    "Eager to learn new technologies",
-    "Effective researcher and continuous learner"
+    "Collaborative and team-oriented player with a strong work ethic and a commitment to helping others succeed",
+    "Creative thinker and problem solver with a proven track record of developing and implementing innovative solutions",
+    "Eager to take on new challenges and learn new technologies",
+    "Effective researcher and continuous learner with a passion for staying up-to-date on the latest trends and developments in the field"
   ],
   experience: [
     {
       role: "Backend Developer (Full Time - Remote)",
       company: "Jolife for Information Technology",
       location: "Jarash, Jordan",
-      period: "July 2025 – January 2026",
+      period: "November 2024 – January 2026",
       achievements: [
-        "Architected scalable, modular backend systems to facilitate long-term maintenance and high-traffic performance.",
-        "Optimized project structures, reducing technical debt and improving onboarding efficiency for remote team members."
-      ]
-    },
-    {
-      role: "Backend Developer (Per Hour - Remote)",
-      company: "Codenzia",
-      location: "Dubai, UAE",
-      period: "November 2024 – May 2025",
-      achievements: [
+        "Architected modular backend systems designed for high-traffic scalability and long-term maintainability.",
+        "Delivered reliable backend solutions for production environments through rigorous debugging and system design.",
         "Implemented features with Laravel and ensured reliability using PHPUnit testing.",
-        "Worked closely with cross-functional teams to deliver high-quality solutions.",
         "Built admin panels using Filament and frontend components with Livewire and Tailwind CSS."
       ]
     },
@@ -58,7 +49,6 @@ export const profile = {
       period: "November 2023 – September 2024",
       achievements: [
         "Deployed and maintained applications on VPS servers.",
-        "Integrated external services such as email, SMS, and payment gateways.",
         "Participated in backend feature development and service integration efforts."
       ]
     },
@@ -68,18 +58,16 @@ export const profile = {
       location: "Amman, Jordan",
       period: "October 2022 – September 2024",
       achievements: [
-        "Managed cloud deployments and implemented CI/CD pipelines for efficient delivery.",
         "Collaborated with multidisciplinary teams to ensure product quality and consistency."
       ]
     },
     {
       role: "Online Internship",
-      company: "Fintech Integration",
+      company: "Ministry of Communications",
       location: "Online",
       period: "September 2021 – June 2022",
       achievements: [
-        "Implemented clean code practices using OOP principles and the Repository Design Pattern.",
-        "Gained hands-on experience in fintech by integrating the MyFatoorah payment gateway."
+        "Actively participated in the Ministry of Communications' initiative to bridge the gap between academic knowledge and market requirements for self-employment."
       ]
     }
   ],
