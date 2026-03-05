@@ -47,7 +47,7 @@ export const profile = {
       location: "Baghdad, Iraq",
       period: "November 2023 – September 2024",
       achievements: [
-        "Developed and maintained scalable backend features and managed third-party service integrations, ensuring 99.9% system reliability through rigorous debugging and optimization."
+        "Developed and maintained scalable backend features and managed third-party service integrations, while architecting CI/CD pipelines via GitHub Actions, ensuring 99.9% system reliability through rigorous debugging and optimization."
       ]
     },
     {
