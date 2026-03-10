@@ -1,12 +1,14 @@
 <script setup>
 import { profile } from '../../data.js'
-import { Database, Server, Layout, Wrench } from 'lucide-vue-next'
+import { Database, Server, Layout, Wrench, Layers, CheckCircle } from 'lucide-vue-next'
 
 const skillCategories = [
   { name: 'Backend', icon: Server, skills: profile.skills.backend },
+  { name: 'Architecture', icon: Layers, skills: profile.skills.architecture },
   { name: 'Database', icon: Database, skills: profile.skills.database },
   { name: 'DevOps', icon: Wrench, skills: profile.skills.devops },
-  { name: 'Frontend', icon: Layout, skills: profile.skills.frontend }
+  { name: 'Frontend', icon: Layout, skills: profile.skills.frontend },
+  { name: 'Quality Assurance', icon: CheckCircle, skills: profile.skills.qa }
 ]
 </script>
 

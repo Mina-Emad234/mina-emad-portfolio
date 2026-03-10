@@ -8,7 +8,7 @@ export const profile = {
   whatsapp: "https://wa.me/201273530486",
   github: "https://github.com/Mina-Emad234",
   linkedin: "https://www.linkedin.com/in/mina-emad-2514a2243",
-  summary: "Results-oriented Backend Developer with 4 years of experience, primarily within dynamic startup environments. Proven track record in building scalable web applications from the ground up using PHP and Laravel. Expert in designing RESTful APIs, optimizing database performance, and integrating complex third-party services. With a strong focus on applying Clean Architecture to deliver maintainable, high-performance backend solutions that drive business growth.",
+  summary: "Results-oriented Backend Developer with 4 years of experience, primarily within dynamic startup environments. Proven track record in building scalable web applications from the ground up using PHP and Laravel. Expert in designing RESTful APIs, optimizing database performance, and integrating complex third-party services. Strong focus on applying Clean Architecture to deliver maintainable, high-performance backend solutions that drive business growth.",
   education: {
     degree: "Bachelor of Business Information System",
     institution: "Faculty of Commerce, Tanta University",
@@ -16,11 +16,12 @@ export const profile = {
     description: "Specialized in Web Programming and participated in the Ministry of Communications' youth qualification initiative."
   },
   skills: {
-    backend: ["PHP", "Laravel", "CodeIgniter", "GraphQL", "Filament", "ExpressJS", "RESTful APIs", "Microservices (Rabbitmq message queue)", "Unit Testing", "Caching", "Multitenancy", "Web scraping", "External systems integration"],
-    database: ["MySQL", "MongoDB", "Redis"],
-    devops: ["Docker", "CI/CD", "Git", "GitHub", "Web Hosting", "AWS"],
+    backend: ["PHP", "Laravel", "CodeIgniter", "Filament", "ExpressJS"],
+    database: ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
+    architecture: ["RESTful APIs", "GraphQL", "Microservices (RabbitMQ)", "Multitenancy", "Clean Architecture", "System Design", "Design Patterns", "SOLID Principles", "DDD (Domain Driven Design)", "Web Scraping", "Caching", "Third-party services"],
+    devops: ["Docker", "CI/CD (GitHub Actions)", "Git", "GitHub", "AWS"],
     frontend: ["HTML", "CSS", "JavaScript", "jQuery", "Vue.js", "Livewire", "Tailwind CSS", "Bootstrap"],
-    tools: ["Pusher", "Firebase", "Payment Gateway Integration", "External APIs", "Zoom Integration", "Wasabi"]
+    qa: ["Unit Testing", "Feature Testing"]
   },
   softSkills: [
     "Clear and concise communication",
@@ -31,40 +32,40 @@ export const profile = {
   ],
   experience: [
     {
-      role: "Backend Developer (Full Time - Remote)",
+      role: "Backend Developer (Full Time)",
       company: "Jolife for Information Technology",
-      location: "Jarash, Jordan",
-      period: "November 2024 – January 2026",
+      location: "Jarash, Jordan (Remote)",
+      period: "11/2024 – 01/2026",
       achievements: [
         "Optimized long-term maintainability by implementing Clean Architecture principles, reducing onboarding time for new developers by approximately 25%.",
-        "Engineered robust features using Laravel, maintaining a 95%+ uptime for core production services through proactive monitoring and error handling.",
-        "Implemented features with Laravel and ensured reliability using PHPUnit testing."
+        "Developed high-performance RESTful APIs using Laravel and Clean Architecture, achieving a 40% reduction in server response time and a 35% increase in throughput by implementing optimized Eloquent queries and database indexing.",
+        "Developed scalable, modular backend services in Laravel following Clean Architecture principles; leveraged PHPUnit to ensure 99.9% system reliability during high-traffic periods."
       ]
     },
     {
-      role: "Backend Developer (Part Time - Remote)",
+      role: "Backend Developer (Part Time)",
       company: "DCC",
-      location: "Baghdad, Iraq",
-      period: "November 2023 – September 2024",
+      location: "Baghdad, Iraq (Remote)",
+      period: "11/2023 – 09/2024",
       achievements: [
         "Developed and maintained scalable backend features and managed third-party service integrations, while architecting CI/CD pipelines via GitHub Actions, ensuring system reliability through rigorous debugging and optimization."
       ]
     },
     {
-      role: "Backend Developer (Full Time/Per Project - Remote)",
+      role: "Backend Developer (Full Time / Per Project)",
       company: "We Can",
-      location: "Amman, Jordan",
-      period: "October 2022 – September 2024",
+      location: "Amman, Jordan (Remote)",
+      period: "10/2022 – 09/2024",
       achievements: [
         "Translated complex business requirements into technical specs for 10+ cross-platform projects, ensuring 100% alignment between stakeholder vision and final API delivery.",
         "Leveraged Agile methodologies to reduce \"feature creep,\" resulting in a 15% improvement in sprint completion rates."
       ]
     },
     {
-      role: "Online Internship",
-      company: "Ministry of Communications",
+      role: "Remote Backend Trainee",
+      company: "Online Internship",
       location: "Online",
-      period: "September 2021 – June 2022",
+      period: "09/2021 – 06/2022",
       achievements: [
         "Engaged in intensive professional development and project-based learning to master market-ready skills in a remote environment.",
         "Collaborated with industry mentors to translate theoretical knowledge into practical solutions for digital communications challenges."
