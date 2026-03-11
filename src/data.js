@@ -167,7 +167,7 @@ export const profile = {
         name: "DOVERIFYIT",
         tech: "Laravel, MailService, WhatsappService",
         admin: "https://api.doverifyit.com/ar/dash/login",
-        type: "Verification Service"
+        type: "OTP Verification API Service"
     },
     {
         name: "ALMUSAED",
