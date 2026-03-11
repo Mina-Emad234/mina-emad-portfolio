@@ -76,29 +76,29 @@ export const profile = {
     { name: "Takkeh", status: "Not Deployed yet", type: "Full Stack" },
     { 
       name: "Lockey", 
-      dashboard: "https://admin.lokeyapp.com/admin/login", 
+      // dashboard: "https://admin.lokeyapp.com/admin/login", 
       app: "https://play.google.com/store/apps/details?id=com.lokey.wecan",
       type: "Application & Dashboard"
     },
     {
       name: "Bright-life",
-      dashboard: "https://api.brightlifeapp.com/public/admin/login",
-      userApp: "https://play.google.com/store/apps/details?id=com.brightlife.wecan",
-      providerApp: "https://play.google.com/store/apps/details?id=com.bright_life_providers.wecan",
+      // dashboard: "https://api.brightlifeapp.com/public/admin/login",
+      // userApp: "https://play.google.com/store/apps/details?id=com.brightlife.wecan",
+      // providerApp: "https://play.google.com/store/apps/details?id=com.bright_life_providers.wecan",
       type: "E-commerce / Service"
     },
     { name: "Wecan.jo", website: "https://wecan.jo", type: "Corporate" },
     { name: "Fihaa", website: "https://alfaihascientific.com/main", type: "Corporate" },
     {
       name: "Yalla-mzzad",
-      dashboard: "https://yallamzad.com/admin/public/admin/dashboard",
-      app: "https://play.google.com/store/apps/details?id=com.yallamazad.wecan.yallamazad",
+      // dashboard: "https://yallamzad.com/admin/public/admin/dashboard",
+      // app: "https://play.google.com/store/apps/details?id=com.yallamazad.wecan.yallamazad",
       type: "Auction App"
     },
     {
       name: "WayToDoctor",
       tech: "Laravel, SMS Service",
-      dashboard: "https://yallamzad.com/admin/public/admin/dashboard",
+      // dashboard: "https://wa.com/admin/public/admin/dashboard",
       userApp: "https://play.google.com/store/apps/details?id=com.waytodoctors.wecan",
       doctorApp: "https://play.google.com/store/apps/details?id=com.waytodoctorsdoctor.wecan",
       type: "Medical"
@@ -113,44 +113,41 @@ export const profile = {
     {
         name: "JordanStartsHere",
         tech: "Laravel, Cpanel, Mailgun, Firebase",
-        website: "https://jordanstartshere.com",
         app: "https://play.google.com/store/apps/details?id=com.jordanstartshere.wecan",
-        dashboard: "https://dash.jordanstartshere.com/admin/login",
         type: "Community/Tourism"
     },
     {
         name: "Minutto",
         tech: "Laravel, Firebase",
-        website: "https://minutto.net",
-        app: "https://play.google.com/store/apps/details?id=com.jordanstartshere.wecan",
-        dashboard: "https://minutto.net/dash/en/login",
-        type: "Food/Ordering"
+        // website: "https://minutto.net",
+        app: "https://play.google.com/store/apps/details?id=com.minuttoapp.wecan",
+        type: "HR"
     },
     {
         name: "GHRAFY",
         tech: "Laravel, SMS (Info pep)",
-        website: "https://ghrafy.com/en",
-        dashboard: "https://admin.ghrafy.com",
+        // website: "https://ghrafy.com/en",
+        // dashboard: "https://admin.ghrafy.com",
         type: "E-commerce"
     },
     {
         name: "ESTOREIRAQ",
         tech: "Laravel, SMS (Info pep), Cron job",
-        website: "https://estoreiraq.com",
-        hrWebsite: "https://estoreiraq.in",
+        website: "https://www.estore.iq",
+        // hrWebsite: "https://estoreiraq.in",
         type: "E-commerce"
     },
     {
         name: "EA-Score",
         tech: "Laravel, Firebase, Cron job, Sportmonks APIs",
-        dashboard: "https://dash.eascore.io/admin/login",
+        // dashboard: "https://dash.eascore.io/admin/login",
         app: "https://play.google.com/store/apps/details?id=com.eascore.wecan",
         type: "Sports"
     },
     {
         name: "HISELL",
-        tech: "Laravel, Paytabs Payment",
-        website: "https://hisell.co/login",
+        // tech: "Laravel, Paytabs Payment",
+        // website: "https://hisell.co/login",
         type: "Marketplace"
     },
     {
@@ -162,8 +159,8 @@ export const profile = {
     {
         name: "CODATA",
         tech: "Laravel, MailService",
-        website: "https://codata.cc",
-        admin: "https://admin.codata.cc/login",
+        // website: "https://codata.cc",
+        // admin: "https://admin.codata.cc/login",
         type: "Information Tech"
     },
     {
@@ -175,10 +172,10 @@ export const profile = {
     {
         name: "ALMUSAED",
         tech: "Laravel, MailService, WhatsappService, Zoom Integration",
-        admin: "http://almosaaed.com/en/admin/login",
-        professorDashboard: "https://almosaaed.com/en/professor/login",
-        app: "https://play.google.com/store/apps/details?id=com.almusaed.wecan",
-        type: "Education"
+        // admin: "http://almosaaed.com/en/admin/login",
+        // professorDashboard: "https://almosaaed.com/en/professor/login",
+        // app: "https://play.google.com/store/apps/details?id=com.almusaed.wecan",
+        type: "LMS"
     },
     {
         name: "RUBIX",
@@ -195,22 +192,22 @@ export const profile = {
     {
         name: "EIMTITHAL",
         tech: "Laravel, Filament, Livewire, Tailwind",
-        webApp: "https://app.eimtithal.com/app/login",
-        admin: "https://app.eimtithal.com/admin/login",
+        // webApp: "https://app.eimtithal.com/app/login",
+        app: "https://play.google.com/store/apps/details?id=com.imtithal.wecan",
         type: "Compliance"
     },
     {
         name: "NOUR ALQABAS",
         tech: "Laravel, Filament, Livewire, Tailwind, Wasabi Integration",
         webApp: "https://nouralqabas.edu.jo/admin/login",
-        type: "Education"
+        type: "LMS"
     },
     {
         name: "TAQWA",
         tech: "Laravel, Filament, Firebase",
         webApp: "https://nouralqabas.edu.jo/",
         app: "https://play.google.com/store/apps/details?id=com.Taqwa.Taqwa.App.taqwa&pcampaignid=web_share",
-        type: "Education"
+        type: "LMS"
     },
     {
         name: "CAKESHOP",
@@ -223,7 +220,7 @@ export const profile = {
         name: "BUYINGREWARDS",
         tech: "Laravel, Filament, Cashpre & Fedex APIs, Laravel Reverb, Firebase",
         webApp: "https://buyingrewards.com/",
-        type: "Rewards"
+        type: "E-commerce Platform"
     }
   ],
   internshipProjects: [
