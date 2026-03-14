@@ -31,9 +31,9 @@ onMounted(() => {
     <main>
       <Hero />
       <About />
-      <Experience />
-      <Skills />
       <Projects />
+      <Skills />
+      <Experience />
       <Contact />
     </main>
 

@@ -18,10 +18,9 @@ export const profile = {
   skills: {
     backend: ["PHP", "Laravel", "CodeIgniter", "Filament", "ExpressJS"],
     database: ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
-    architecture: ["RESTful APIs", "GraphQL", "Microservices (RabbitMQ)", "Multitenancy", "Clean Architecture", "System Design", "Design Patterns", "SOLID Principles", "DDD (Domain Driven Design)", "Web Scraping", "Caching", "Third-party services"],
+    architecture: ["RESTful APIs", "GraphQL", "Microservices (RabbitMQ)", "Multitenancy", "System Design", "Design Patterns", "SOLID Principles", "DDD (Domain Driven Design)", "Web Scraping", "Caching", "Third-party services", "Unit Testing", "Feature Testing"],
     devops: ["Docker", "CI/CD (GitHub Actions)", "Git", "GitHub", "AWS"],
-    frontend: ["HTML", "CSS", "JavaScript", "jQuery", "Vue.js", "Livewire", "Tailwind CSS", "Bootstrap"],
-    qa: ["Unit Testing", "Feature Testing"]
+    frontend: ["HTML", "CSS", "JavaScript", "jQuery", "Vue.js", "Livewire", "Tailwind CSS", "Bootstrap"]
   },
   softSkills: [
     "Clear and concise communication",
@@ -32,30 +31,31 @@ export const profile = {
   ],
   experience: [
     {
-      role: "Backend Developer (Full Time)",
+      role: "Backend Developer",
       company: "Jolife for Information Technology",
       location: "Jarash, Jordan (Remote)",
       period: "11/2024 – 01/2026",
       achievements: [
-        "Optimized long-term maintainability by implementing Clean Architecture principles, reducing onboarding time for new developers by approximately 25%.",
-        "Developed high-performance RESTful APIs using Laravel and Clean Architecture, achieving a 40% reduction in server response time and a 35% increase in throughput by implementing optimized Eloquent queries and database indexing.",
-        "Developed scalable, modular backend services in Laravel following Clean Architecture principles; leveraged PHPUnit to ensure 99.9% system reliability during high-traffic periods."
+        "Optimized long-term maintainability, implementing Clean Architecture principles, reducing onboarding time for new developers by approximately 25%.",
+        "Developed high-performance RESTful APIs achieving a 40% reduction in server response time and a 35% increase in throughput.",
+        "Developed scalable, modular backend services following Clean Architecture principles; leveraged PHPUnit to ensure 99.9% system reliability during high-traffic periods."
       ]
     },
     {
-      role: "Backend Developer (Part Time)",
+      role: "Backend Developer",
       company: "DCC",
       location: "Baghdad, Iraq (Remote)",
       period: "11/2023 – 09/2024",
       achievements: [
-        "Developed and maintained scalable backend features and managed third-party service integrations, while architecting CI/CD pipelines via GitHub Actions, ensuring system reliability through rigorous debugging and optimization."
+        "Developed and maintained scalable backend features and managed third-party service integrations, while architecting CI/CD pipelines via GitHub Actions.",
+        "Ensuring system reliability through rigorous debugging and optimization."
       ]
     },
     {
-      role: "Backend Developer (Full Time / Per Project)",
+      role: "Backend Developer",
       company: "We Can",
       location: "Amman, Jordan (Remote)",
-      period: "10/2022 – 09/2024",
+      period: "10/2022 – 10/2023",
       achievements: [
         "Translated complex business requirements into technical specs for 10+ cross-platform projects, ensuring 100% alignment between stakeholder vision and final API delivery.",
         "Leveraged Agile methodologies to reduce \"feature creep,\" resulting in a 15% improvement in sprint completion rates."
@@ -73,28 +73,14 @@ export const profile = {
     }
   ],
   projects: [
-    { name: "Takkeh", status: "Not Deployed yet", type: "Full Stack" },
     { 
       name: "Lockey", 
       // dashboard: "https://admin.lokeyapp.com/admin/login", 
       app: "https://play.google.com/store/apps/details?id=com.lokey.wecan",
       type: "Application & Dashboard"
     },
-    {
-      name: "Bright-life",
-      // dashboard: "https://api.brightlifeapp.com/public/admin/login",
-      // userApp: "https://play.google.com/store/apps/details?id=com.brightlife.wecan",
-      // providerApp: "https://play.google.com/store/apps/details?id=com.bright_life_providers.wecan",
-      type: "E-commerce / Service"
-    },
     { name: "Wecan.jo", website: "https://wecan.jo", type: "Corporate" },
     { name: "Fihaa", website: "https://alfaihascientific.com/main", type: "Corporate" },
-    {
-      name: "Yalla-mzzad",
-      // dashboard: "https://yallamzad.com/admin/public/admin/dashboard",
-      // app: "https://play.google.com/store/apps/details?id=com.yallamazad.wecan.yallamazad",
-      type: "Auction App"
-    },
     {
       name: "WayToDoctor",
       tech: "Laravel, SMS Service",
@@ -124,13 +110,6 @@ export const profile = {
         type: "HR"
     },
     {
-        name: "GHRAFY",
-        tech: "Laravel, SMS (Info pep)",
-        // website: "https://ghrafy.com/en",
-        // dashboard: "https://admin.ghrafy.com",
-        type: "E-commerce"
-    },
-    {
         name: "ESTOREIRAQ",
         tech: "Laravel, SMS (Info pep), Cron job",
         website: "https://www.estore.iq",
@@ -145,37 +124,16 @@ export const profile = {
         type: "Sports"
     },
     {
-        name: "HISELL",
-        // tech: "Laravel, Paytabs Payment",
-        // website: "https://hisell.co/login",
-        type: "Marketplace"
-    },
-    {
         name: "WECANARABIA",
         tech: "PHP, Montypay Payment",
         website: "https://wecanarabia.com",
         type: "Corporate"
     },
     {
-        name: "CODATA",
-        tech: "Laravel, MailService",
-        // website: "https://codata.cc",
-        // admin: "https://admin.codata.cc/login",
-        type: "Information Tech"
-    },
-    {
         name: "DOVERIFYIT",
         tech: "Laravel, MailService, WhatsappService",
-        admin: "https://api.doverifyit.com/ar/dash/login",
+        website: "https://api.doverifyit.com/ar/dash/login",
         type: "OTP Verification API Service"
-    },
-    {
-        name: "ALMUSAED",
-        tech: "Laravel, MailService, WhatsappService, Zoom Integration",
-        // admin: "http://almosaaed.com/en/admin/login",
-        // professorDashboard: "https://almosaaed.com/en/professor/login",
-        // app: "https://play.google.com/store/apps/details?id=com.almusaed.wecan",
-        type: "LMS"
     },
     {
         name: "RUBIX",
@@ -221,6 +179,48 @@ export const profile = {
         tech: "Laravel, Filament, Cashpre & Fedex APIs, Laravel Reverb, Firebase",
         webApp: "https://buyingrewards.com/",
         type: "E-commerce Platform"
+    },
+    { name: "Takkeh", status: "Not Deployed yet", type: "Full Stack" },
+    {
+      name: "Bright-life",
+      // dashboard: "https://api.brightlifeapp.com/public/admin/login",
+      // userApp: "https://play.google.com/store/apps/details?id=com.brightlife.wecan",
+      // providerApp: "https://play.google.com/store/apps/details?id=com.bright_life_providers.wecan",
+      type: "E-commerce / Service"
+    },
+    {
+      name: "Yalla-mzzad",
+      // dashboard: "https://yallamzad.com/admin/public/admin/dashboard",
+      // app: "https://play.google.com/store/apps/details?id=com.yallamazad.wecan.yallamazad",
+      type: "Auction App"
+    },
+    {
+        name: "GHRAFY",
+        tech: "Laravel, SMS (Info pep)",
+        // website: "https://ghrafy.com/en",
+        // dashboard: "https://admin.ghrafy.com",
+        type: "E-commerce"
+    },
+    {
+        name: "HISELL",
+        // tech: "Laravel, Paytabs Payment",
+        // website: "https://hisell.co/login",
+        type: "Marketplace"
+    },
+    {
+        name: "CODATA",
+        tech: "Laravel, MailService",
+        // website: "https://codata.cc",
+        // admin: "https://admin.codata.cc/login",
+        type: "Information Tech"
+    },
+    {
+        name: "ALMUSAED",
+        tech: "Laravel, MailService, WhatsappService, Zoom Integration",
+        // admin: "http://almosaaed.com/en/admin/login",
+        // professorDashboard: "https://almosaaed.com/en/professor/login",
+        // app: "https://play.google.com/store/apps/details?id=com.almusaed.wecan",
+        type: "LMS"
     }
   ],
   internshipProjects: [
